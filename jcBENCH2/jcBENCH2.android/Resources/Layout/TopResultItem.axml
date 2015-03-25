@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/widget2338"
+    android:layout_height="125px">
+    <LinearLayout
+        android:id="@+id/ltTop"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10px"
+        android:layout_marginBottom="10px">
+        <TextView
+            android:id="@+id/tvDateOfBenchmark"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6/1/2013 8:45 AM" />
+        <LinearLayout
+            android:id="@+id/ltMain"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="5px">
+            <TextView
+                android:id="@+id/tvScore"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:textSize="36sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200" />
+            <TextView
+                android:id="@+id/tvDeviceName"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:text="Unknown Android CPU" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

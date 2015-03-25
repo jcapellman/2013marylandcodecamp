@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title</title>
+        <meta name="viewport" content="width=device-width" />
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body style="background-color: #000;font-family: Verdana, Tahoma, Arial, Helvetica, Sans-Serif;color: #696969;">
+        <div>
+            <div style="margin-left: 20px;">
+                <img alt="jcBENCH2" src="~/Content/images/logo.png" />
+            </div>
+
+            @RenderBody()
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        <script>
+            $(document).on("mobileinit", function () {
+                $.mobile.ajaxEnabled = false;
+            });
+        </script>
+        @Scripts.Render("~/bundles/jquerymobile")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

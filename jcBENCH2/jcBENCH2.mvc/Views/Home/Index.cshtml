@@ -1,0 +1,19 @@
+﻿@model jcBENCH2.mvc.Models.ResultModel
+
+@{
+    ViewBag.Title = "jcBENCH | Home";
+}
+
+<h2>@ViewBag.Message</h2>
+<p>
+@foreach (var result in @Model.TopResultItems) {
+    <div>
+        <h3>@result.DateOfBenchmark</h3>
+        <div style="float:left">
+            <h2>@result.Score</h2>
+            <h3>@result.DeviceName</h3>
+        </div>
+    </div>
+}
+</p>
+

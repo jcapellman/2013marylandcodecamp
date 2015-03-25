@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a1261a52-3d71-459d-a196-2e9de2edc7ca" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://www.jarredcapellman.com/codecamp/ResultService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ResultService3.xsd" MetadataType="Schema" ID="f39cf520-10a4-4d04-9b9e-b8f33b2426a6" SourceId="1" SourceUrl="http://www.jarredcapellman.com/codecamp/ResultService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ResultService31.xsd" MetadataType="Schema" ID="d0ebebf1-bb08-455e-83b8-2cd50153f5fb" SourceId="1" SourceUrl="http://www.jarredcapellman.com/codecamp/ResultService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ResultService1.disco" MetadataType="Disco" ID="bfacbd88-2822-472c-9e88-c7784a8daca3" SourceId="1" SourceUrl="http://www.jarredcapellman.com/codecamp/ResultService.svc?disco" />
+    <MetadataFile FileName="ResultService32.xsd" MetadataType="Schema" ID="5a1c2747-7611-486a-8a94-5035622ec6f0" SourceId="1" SourceUrl="http://www.jarredcapellman.com/codecamp/ResultService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ResultService1.wsdl" MetadataType="Wsdl" ID="a90829e8-943b-433a-b739-71535d7eec7e" SourceId="1" SourceUrl="http://www.jarredcapellman.com/codecamp/ResultService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
